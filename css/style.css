@@ -63,14 +63,14 @@ body {
 }
 
     /* list section */
-    .spunta-verde {
+.done-not-done-icon {
         width: 16px;
         height: 16px;
         vertical-align: middle;
         margin-right: 8px;
     }
 
-.category-blue-editorial {
+.category {
     display: inline-block;
     background-color: #48ace9;
     color: white;
@@ -79,4 +79,30 @@ body {
     text-align: center;
     vertical-align: middle;
     border-radius: 20px;
+}
+
+#violet {
+    background-color: #9b74e7;
+    color: white;
+    
+}
+
+#dark-green {
+    background-color: #60c2a9;
+    color: white;
+}
+
+#orange {
+    background-color: #e8a035;
+    color: white;
+}
+
+#pink {
+    background-color: #d6689f;
+    color: white;
+}
+
+#light-green {
+    background-color: #aec825;
+    color: white;
 }
