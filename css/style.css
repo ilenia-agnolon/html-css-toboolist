@@ -106,3 +106,8 @@ body {
     background-color: #aec825;
     color: white;
 }
+
+.space {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
