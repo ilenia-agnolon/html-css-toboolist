@@ -1,4 +1,4 @@
-/* regole generali */
+/* general rules */
 
 * {
     margin: 0;
@@ -12,7 +12,7 @@ body {
     background-color: #d0d0d0;
 }
 
-/* regole header */
+/* header rules*/
 #container {
     background-color: white;
     
@@ -30,7 +30,7 @@ body {
     font-size: 50px;
 }
 
-/* regole contenuto principale */
+/* main content rules */
 #white-container {
     background-color: white;
     width: 80%;
@@ -41,7 +41,7 @@ body {
     padding: 20px;
     border-radius: 10px;    
 }
-    /* pulsanti "Add Task" & "Add Section" */
+    /* "Add Task" & "Add Section"buttons */
 .buttons {
     text-align: center;
     cursor: pointer;
@@ -60,4 +60,23 @@ body {
 #button-two {
     background-color: white;
     color: #d0d0d0;
+}
+
+    /* list section */
+    .spunta-verde {
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+        margin-right: 8px;
+    }
+
+.category-blue-editorial {
+    display: inline-block;
+    background-color: #48ace9;
+    color: white;
+    padding: 4px 10px;
+    margin-left: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 20px;
 }
