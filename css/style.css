@@ -63,6 +63,20 @@ body {
 }
 
     /* list section */
+
+.section-title {
+    display: flex;
+    align-items: center;
+   
+}
+
+.freccia-nera {
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+        margin-right: 8px;
+}
+
 .done-not-done-icon {
         width: 16px;
         height: 16px;
@@ -105,9 +119,4 @@ body {
 #light-green {
     background-color: #aec825;
     color: white;
-}
-
-.space {
-    margin-top: 12px;
-    margin-bottom: 12px;
 }
