@@ -15,19 +15,22 @@ body {
 /* header rules*/
 #container {
     background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    height: 80px;
     
 }
 
 #img-logo {
-    height: 50px;
-    vertical-align: middle;
+    height: 50px;    
     line-height: 100px;
     padding-left: 30px;
 }
 
 #logo-text {
     color: black;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 /* main content rules */
