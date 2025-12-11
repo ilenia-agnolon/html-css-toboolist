@@ -1,133 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Toboolist</title>
-</head>
+  </head>
 
-<body>
-
-<!-- Header with logo -->
+  <body>
+    <!-- Header with logo -->
     <header>
-        <section id="container">
-            <img src="../html-css-toboolist/img/Logo.png" alt="Logo" id="img-logo">
-            <span id="logo-text"><strong>Toboolist</strong></span>
-        </section>
+      <div id="container">
+        <img src="img/Logo.png" alt="Logo" id="img-logo" />
+        <span id="logo-text"><strong>Toboolist</strong></span>
+      </div>
     </header>
 
-
     <main>
-        <!-- white space inside grey background -->
-        <div id="white-container">
-             <!-- buttons "Add Task" & "Add Section" -->
-            <section>
-            <div>
-                <button class="buttons" id="button-one">Add Task</button>
-                <button class="buttons" id="button-two">Add Section</button>
-            </div>
-            </section>
+      <!-- white space inside grey background -->
+      <div id="white-container">
+        <!-- buttons "Add Task" & "Add Section" -->
+        <section>
+          <div>
+            <button class="buttons" id="button-one">Add Task</button>
+            <button class="buttons" id="button-two">Add Section</button>
+          </div>
+        </section>
 
-<br>
+        <br />
 
         <!-- list  -->
-            <section>
+        <section>
+          <!-- New Task -->
+          <div class="section-title">
+            <img
+              src="img/freccia-nera.png"
+              alt="freccia apri lista"
+              class="freccia-nera"
+            />
+            <h2>New Task</h2>
+          </div>
+          <br />
+          <div>
+            <img
+              src="img/spunta-verde.jpg"
+              alt="spunta verde"
+              class="done-not-done-icon"
+            />
+            Quarterly Newsletter<span class="category">Editorial</span>
+          </div>
 
-            <!-- New Task -->
-             <div class="section-title">
-                <img src="../html-css-toboolist/img/freccia-nera.png" alt="freccia apri lista"
-                class="freccia-nera">
-                <h2>New Task</h2>
-            </div>
-<br>
-             <div>
-                <img src="../html-css-toboolist/img/spunta-verde.jpg" alt="spunta verde"
-                class="done-not-done-icon">
-                Quarterly Newsletter<span class="category">Editorial</span>
-            </div>
+          <br />
+          <br />
+          <!-- Today -->
+          <div class="section-title">
+            <img
+              src="img/freccia-nera.png"
+              alt="freccia apri lista"
+              class="freccia-nera"
+            />
+            <h2>Today</h2>
+          </div>
+          <br />
+          <div>
+            <img
+              src="img/spunta-verde.jpg"
+              alt="spunta verde"
+              class="done-not-done-icon"
+            />
+            Recruiting blog post<span class="category">Editorial</span>
+          </div>
+          <br />
+          <div>
+            <img
+              src="img/spunta-verde.jpg"
+              alt="spunta verde"
+              class="done-not-done-icon"
+            />
+            Mobile app launch<span id="violet" class="category">Q1 Goals</span>
+          </div>
+          <br />
+          <div>
+            <img
+              src="img/croce-rossa.jpg"
+              alt="croce rossa"
+              class="done-not-done-icon"
+            />
+            Interview John H.<span id="dark-green" class="category"
+              >Recruiting</span
+            >
+          </div>
 
-<br>
-<br>
-            <!-- Today -->
-              <div class="section-title">
-                <img src="../html-css-toboolist/img/freccia-nera.png" alt="freccia apri lista"
-                class="freccia-nera">
-                <h2>Today</h2>
-            </div>
-<br>
-             <div>
-                <img src="../html-css-toboolist/img/spunta-verde.jpg" alt="spunta verde"
-                class="done-not-done-icon">
-                Recruiting blog post<span class="category">Editorial</span>
-            </div>
-<br>
-            <div>
-                <img src="../html-css-toboolist/img/spunta-verde.jpg" alt="spunta verde"
-                class="done-not-done-icon">
-                Mobile app launch<span id="violet" class="category">Q1 Goals</span>
-            </div>
-<br>
-            <div>
-                <img src="../html-css-toboolist/img/croce-rossa.jpg" alt="croce rossa"
-                class="done-not-done-icon">
-                Interview John H.<span id="dark-green" class="category">Recruiting</span>
-            </div>
+          <br />
+          <div>
+            <img
+              src="img/spunta-verde.jpg"
+              alt="spunta verde"
+              class="done-not-done-icon"
+            />
+            Summit update to mobile storefronts<span
+              id="orange"
+              class="category"
+              >Mobile</span
+            >
+          </div>
 
-<br>            <div>
-                <img src="../html-css-toboolist/img/spunta-verde.jpg" alt="spunta verde"
-                class="done-not-done-icon">
-                Summit update to mobile storefronts<span id="orange" class="category">Mobile</span>
-            </div>
-
-
-<br>
-<br>
-            <!-- Upcoming -->
-              <div class="section-title">
-                <img src="../html-css-toboolist/img/freccia-nera.png" alt="freccia apri lista"
-                class="freccia-nera">
-                <h2>Upcoming</h2>
-            </div>
-<br>
-              <div>
-                <img src="../html-css-toboolist/img/croce-rossa.jpg" alt="croce rossa"
-                class="done-not-done-icon">
-                Schedule meeting with Alex
-            </div>
-<br>
-            <div>
-                <img src="../html-css-toboolist/img/spunta-verde.jpg" alt="spunta verde"
-                class="done-not-done-icon">
-                Homepage refresh<span id="pink" class="category">Website</span>
-            </div>
-<br>
-            <div>
-                <img src="../html-css-toboolist/img/spunta-verde.jpg" alt="spunta verde"
-                class="done-not-done-icon">
-                Onboard new Sales team members<span id="light-green" class="category">Sales</span>
-            </div>
-<br>
-            <div>
-                <img src="../html-css-toboolist/img/spunta-verde.jpg" alt="spunta verde"
-                class="done-not-done-icon">
-                Review editorial calendar<span class="category">Editorial</span>
-            </div>
-
-         </section>
-
-        </div>
-        
-       
-        
-
-        
-
-
-
+          <br />
+          <br />
+          <!-- Upcoming -->
+          <div class="section-title">
+            <img
+              src="img/freccia-nera.png"
+              alt="freccia apri lista"
+              class="freccia-nera"
+            />
+            <h2>Upcoming</h2>
+          </div>
+          <br />
+          <div>
+            <img
+              src="img/croce-rossa.jpg"
+              alt="croce rossa"
+              class="done-not-done-icon"
+            />
+            Schedule meeting with Alex
+          </div>
+          <br />
+          <div>
+            <img
+              src="img/spunta-verde.jpg"
+              alt="spunta verde"
+              class="done-not-done-icon"
+            />
+            Homepage refresh<span id="pink" class="category">Website</span>
+          </div>
+          <br />
+          <div>
+            <img
+              src="img/spunta-verde.jpg"
+              alt="spunta verde"
+              class="done-not-done-icon"
+            />
+            Onboard new Sales team members<span
+              id="light-green"
+              class="category"
+              >Sales</span
+            >
+          </div>
+          <br />
+          <div>
+            <img
+              src="img/spunta-verde.jpg"
+              alt="spunta verde"
+              class="done-not-done-icon"
+            />
+            Review editorial calendar<span class="category">Editorial</span>
+          </div>
+        </section>
+      </div>
     </main>
-
-
-    
-</body>
+  </body>
 </html>
